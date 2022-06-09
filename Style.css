@@ -1,0 +1,40 @@
+body {
+  font: light 16px Georgia, "Times New Roman", Times, serif;
+  /*weight, size, family <-- each can be set on it's own*/
+
+  line-height: 1.6em;
+}
+
+.logo {
+  height: 0.8em;
+}
+
+.header-comp-div {
+  padding: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #6cb4ee;
+  color: white;
+  font-size: 30px;
+}
+
+.nav-item {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-div {
+  height: 300px;
+  bottom: 0;
+  width: 100%;
+  background: #6cb4ee;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: #007fff;
+  color: #f0f8ff;
+  border: none;
+}

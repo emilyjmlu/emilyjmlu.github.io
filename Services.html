@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>Services</title>
+  </head>
+
+  <body>
+    <div class="header-comp-div container-fluid text-center">
+      <h1>Westside Animal Hospital</h1>
+
+      <!--Navigation Bar, only collapses when less than md-->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+          <!-- toggle button for mobile nav -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+            aria-controls="main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- navbar links -->
+          <div
+            class="collapse navbar-collapse justify-content-center align-center"
+            id="main-nav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="Index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="Team.html" class="nav-link">Team</a>
+              </li>
+              <li class="nav-item">
+                <a href="Services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="BookApp1.html" class="nav-link">Book Appointment</a>
+              </li>
+              <li class="nav-item">
+                <a href="ContactUs.html" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- breadcrumb -->
+    <div class="container-lg my-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="Index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Services</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- accordion -->
+    <section>
+      <div class="container-lg my-5">
+        <div class="accordion" id="services">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="service-1-heading">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#service-1"
+                aria-expanded="true"
+                aria-controls="service-1"
+              >
+                Primary Care
+              </button>
+            </h2>
+            <div
+              id="service-1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="service-1-heading"
+            >
+              <div class="accordion-body">
+                <div class="row my-3">
+                  <div class="col">
+                    <img
+                      src="/images/primary_care.jpg"
+                      alt="service-1-image"
+                      class="services img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Architecto nesciunt vitae saepe, error facilis pariatur
+                      tenetur laborum placeat reprehenderit obcaecati. Nulla
+                      vero quas voluptatem dicta ex, unde sed laudantium
+                      obcaecati!
+                    </p>
+                    <p>Vets: Arwin Lipton, Jodie Nguyen</p>
+                    <p>Cost: $100-300</p>
+                    <a
+                      class="btn btn-primary"
+                      href="/BookApp1.html"
+                      role="button"
+                      >Book an Appointment</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="service-2-heading">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#service-2"
+                aria-expanded="true"
+                aria-controls="service-2"
+              >
+                Dentistry
+              </button>
+            </h2>
+            <div
+              id="service-2"
+              class="accordion-collapse collapse show"
+              aria-labelledby="service-2-heading"
+            >
+              <div class="accordion-body">
+                <div class="row my-3">
+                  <div class="col">
+                    <img
+                      src="/images/dentistry.jpg"
+                      alt="service-2-image"
+                      class="services img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Architecto nesciunt vitae saepe, error facilis pariatur
+                      tenetur laborum placeat reprehenderit obcaecati. Nulla
+                      vero quas voluptatem dicta ex, unde sed laudantium
+                      obcaecati!
+                    </p>
+                    <p>Vets: Stella Martell, Derrek Fann</p>
+                    <p>Cost:$500-3000</p>
+                    <a
+                      class="btn btn-primary"
+                      href="/BookApp1.html"
+                      role="button"
+                      >Book an Appointment</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="service-3-heading">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#service-3"
+                aria-expanded="true"
+                aria-controls="service-3"
+              >
+                Nutrition
+              </button>
+            </h2>
+            <div
+              id="service-3"
+              class="accordion-collapse collapse show"
+              aria-labelledby="service-3-heading"
+            >
+              <div class="accordion-body">
+                <div class="row my-3">
+                  <div class="col">
+                    <img
+                      src="/images/nutrition.jpg"
+                      alt="service-3-image"
+                      class="services img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Architecto nesciunt vitae saepe, error facilis pariatur
+                      tenetur laborum placeat reprehenderit obcaecati. Nulla
+                      vero quas voluptatem dicta ex, unde sed laudantium
+                      obcaecati!
+                    </p>
+                    <p>Vets: Jodie Nguyen, Marcus Leung</p>
+                    <p>Cost: $100-300</p>
+                    <a
+                      class="btn btn-primary"
+                      href="/BookApp1.html"
+                      role="button"
+                      >Book an Appointment</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="service-4-heading">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#service-4"
+                aria-expanded="true"
+                aria-controls="service-4"
+              >
+                Surgery
+              </button>
+            </h2>
+            <div
+              id="service-4"
+              class="accordion-collapse collapse show"
+              aria-labelledby="service-4-heading"
+            >
+              <div class="accordion-body">
+                <div class="row my-3">
+                  <div class="col">
+                    <img
+                      src="/images/surgery.jpg"
+                      alt="service-4-image"
+                      class="services img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Architecto nesciunt vitae saepe, error facilis pariatur
+                      tenetur laborum placeat reprehenderit obcaecati. Nulla
+                      vero quas voluptatem dicta ex, unde sed laudantium
+                      obcaecati!
+                    </p>
+                    <p>Vets: Jasmine Shepperd, Arwin Lipton</p>
+                    <p>Cost: Depends on Procedure</p>
+                    <a
+                      class="btn btn-primary"
+                      href="/BookApp1.html"
+                      role="button"
+                      >Book an Appointment</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="service-5-heading">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#service-5"
+                aria-expanded="true"
+                aria-controls="service-5"
+              >
+                Emergency Care
+              </button>
+            </h2>
+            <div
+              id="service-5"
+              class="accordion-collapse collapse show"
+              aria-labelledby="service-5-heading"
+            >
+              <div class="accordion-body">
+                <div class="row my-3">
+                  <div class="col">
+                    <img
+                      src="/images/emergency_care.jpg"
+                      alt="service-5-image"
+                      class="services img-fluid"
+                    />
+                  </div>
+                  <div class="col">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Architecto nesciunt vitae saepe, error facilis pariatur
+                      tenetur laborum placeat reprehenderit obcaecati. Nulla
+                      vero quas voluptatem dicta ex, unde sed laudantium
+                      obcaecati!
+                    </p>
+                    <p>Vets: Jasmine Shepperd, Marcus Leung</p>
+                    <p>Cost: Depends on Procedure</p>
+                    <a
+                      class="btn btn-primary"
+                      href="/BookApp1.html"
+                      role="button"
+                      >Book an Appointment</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="footer-div text-center">
+      <div class="row">
+        <div class="col">
+          <div class="p-5 text-light">
+            <h3>Contact Us</h3>
+            <p class="text-center">
+              300 Bark Street<br />
+              K9D 7B6<br />
+              Ottawa, Ontario<br />
+              (613) 496-2817<br />
+              westsideanimalhospital@wsah.ca
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-5 text-light">
+            <h3>Operating Hours</h3>
+            <p class="text-center">
+              MONDAY-FRIDAY: Open 24 Hours<br />
+              SATURDAY: Open 24 Hours<br />
+              SUNDAY: Open 24 Hours
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-5 text-light">
+            <h3>Directions</h3>
+            <!-- code for google maps taken from: https://mdbootstrap.com/docs/b4/jquery/javascript/google-maps/ -->
+            <div
+              id="map-container-google-1"
+              class="z-depth-1-half map-container"
+              style="height: 100px"
+            >
+              <iframe
+                src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

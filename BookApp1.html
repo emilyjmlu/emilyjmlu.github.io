@@ -84,7 +84,7 @@
 
     <!-- beginning of form -->
     <div class="container-lg my-5">
-      <form>
+      <form id="bookAppointmentPage1" method="GET" action="/BookApp2.html">
         
       <!-- General Information -->
       <div class="row">
@@ -95,7 +95,7 @@
               <label for="petNameInput">Pet Name</label>
             </div>
             <div class="col my-3">
-              <input type="text" class="form-control" id="petNameInput" placeholder="Pet Name">
+              <input type="text" class="form-control" id="petNameInput" name="petName" placeholder="Pet Name">
             </input>
           </div>
         </div>
@@ -105,11 +105,11 @@
           </div>
           <div class="col my-3">
             <select class="form-select" id="petTypeSelect">
-              <option>Dog</option>
-              <option>Cat</option>
-              <option>Frog</option>
-              <option>Bird</option>
-              <option>Hamster</option>
+              <option value="petType">Dog</option>
+              <option value="petType">Cat</option>
+              <option value="petType">Frog</option>
+              <option value="petType">Bird</option>
+              <option value="petType">Hamster</option>
             </select>
           </div>
         </div>

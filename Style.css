@@ -28,7 +28,7 @@ body {
   height: 300px;
   bottom: 0;
   width: 100%;
-  background: #6cb4ee;
+  background: #76abdf;
   margin: 0;
   padding: 0;
 }
@@ -37,4 +37,8 @@ body {
   background-color: #007fff;
   color: #f0f8ff;
   border: none;
+}
+
+.card {
+  background: #b0c4de;
 }
